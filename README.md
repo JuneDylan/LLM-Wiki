@@ -6,7 +6,7 @@
 
 > **将 AI 对话记录和阅读资料，自动编译为带双向链接的本地知识库。**
 
-LLM Wiki 是一个基于 Python 的本地知识库构建工具。它把 LLM 当作"编译器"——你负责输入原材料（对话记录、文章、PDF），LLM 负责提取实体、建立关联、格式化输出，最终生成一个可在 Obsidian / VS Code / 任何 Markdown 编辑器中浏览的结构化知识库。
+LLM Wiki 是一个参考Karpathy 的 LLM Wiki 思路，基于 Python 的本地知识库构建工具。它把 LLM 当作"编译器"——你负责输入原材料（对话记录、文章、PDF），LLM 负责提取实体、建立关联、格式化输出，最终生成一个可在 Obsidian / VS Code / 任何 Markdown 编辑器中浏览的结构化知识库。
 
 ```
 Raw（原始资料） ──LLM 编译──> Wiki（结构化知识页） ──Health Check──> 持续维护
