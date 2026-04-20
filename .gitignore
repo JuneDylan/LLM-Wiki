@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ========================================================================
+# 以下为用户个人数据，开源时请勿上传
+# ========================================================================
+
+# 原始资料层（含个人隐私对话记录、文章、PDF）
+/raw/
+
+# 自动生成的知识层（可由 scripts 重新构建）
+/wiki/
+
+# Obsidian 编辑器配置
+/.obsidian/
+
+# 博客文章（非项目代码）
+/blog-*.md
+
+# 根目录下的个人资料（不应上传）
+/_meta.json
+/llm-trends-2024.md
+
+# 备份目录
+/wiki - 副本/
+/wiki-backup*/
+
+# 自动生成报告和日志
+wiki/_health-report.md
+*.log
+
+# Temp files
+*.tmp
+*.temp
+.cache/
